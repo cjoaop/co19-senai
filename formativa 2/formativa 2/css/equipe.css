@@ -1,0 +1,202 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: ghostwhite;
+}
+
+/* ---------------- */
+/* ---- HEADER ---- */
+/* ---------------- */
+
+header {
+    display: flex;
+    background-color: #226E93;
+    justify-content: space-between;
+}
+
+
+#menu {
+    display: flex;
+    max-width: 1000px;
+}
+
+#menu a {
+    padding: 20px 20px 20px 20px;
+    margin-left: 30px;
+}
+
+#logo {
+    width: 250px;
+}
+
+/* ---------------- */
+/* ------ NAV ----- */
+/* ---------------- */
+
+#div-nav {
+    justify-content: right;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    padding: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px 15px;
+    color: rgb(255, 255, 255);
+
+}
+
+nav a :hover {
+    background-color: white;
+}
+
+/* ---------------- */
+/* ----- SOBRE ---- */
+/* ---------------- */
+
+#about1 {
+    color: #260729;
+    margin-left: 52px;
+}
+
+#about2 {
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+#cont-equipe {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    display: flex;
+    height: 430px;
+    width: 1480px;
+    box-shadow: rgba(0, 0, 0, 0.16) 2px 5px 2px;
+}
+
+/* ---------------- */ 
+/* ---- ALUNOS ---- */
+/* ---------------- */
+
+#alun1 {
+    font-size: 22px;
+    padding: 10px;
+    margin: 10px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+#alun2 {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* ---------------- */ 
+/*-- PROFESSORES -- */
+/* ---------------- */
+
+#prof1 {
+    font-size: 22px;
+    padding: 10px;
+    margin: 10px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+#prof2 {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+
+    body {
+        font-size: 18px;
+        padding: 0;
+        
+    }
+
+    header {
+        flex-direction: column;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header nav {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0 auto 0px auto;
+    }
+
+    header nav a {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+
+    #logo {
+        margin-left: 0;
+        min-height: 100px;
+        max-width: 95%;
+        padding: 5px 5px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #grande {
+        width: 300px;
+    }
+
+    #about2  {
+        font-size: 20px
+    }
+
+    #cont-equipe {
+        height: 550px;
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 1280px) AND (min-width: 768px) {
+
+    header {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    #about2 {
+        font-size: 20px;
+    }
+
+    #grande {
+        width: 700px;
+    }
+
+    #cont-equipe {
+        width: 750px;
+    }  
+
+}
+
+

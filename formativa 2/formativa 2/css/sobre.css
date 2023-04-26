@@ -1,0 +1,172 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: ghostwhite;
+}
+
+/* ---------------- */
+/* ---- HEADER ---- */
+/* ---------------- */
+
+header {
+    display: flex;
+    background-color: #226E93;
+    justify-content: space-between;
+}
+
+
+#menu {
+    display: flex;
+    max-width: 1000px;
+}
+
+#menu a {
+    padding: 20px 20px 20px 20px;
+    margin-left: 30px;
+}
+
+#logo {
+    width: 250px;
+}
+
+/* ---------------- */
+/* ------ NAV ----- */
+/* ---------------- */
+
+#div-nav {
+    justify-content: right;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    padding: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px 15px;
+    color: rgb(255, 255, 255);
+
+}
+
+nav a :hover {
+    background-color: white;
+}
+
+/* ---------------- */
+/* ----- ABOUT ---- */
+/* ---------------- */
+
+#about1 {
+    color: #260728;
+    margin-left: 52px;
+}
+
+#about-project {
+    margin-left: 25px;
+    color: #260728;
+    font-size: 22px; 
+}
+
+#texta1 {
+    margin-left: 25px;
+}
+
+#cont-sobre {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+    height: 500px;
+    width: 1480px;
+    box-shadow: rgba(0, 0, 0, 0.16) 2px 5px 2px;
+}
+
+@media (max-width: 767px) {
+
+    body {
+        font-size: 18px;
+        padding: 0;
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header nav {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0 auto 0px auto;
+    }
+
+    header nav a {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+
+    #logo {
+        margin-left: 0;
+        min-height: 100px;
+        max-width: 95%;
+        padding: 5px 5px;
+    }
+
+    /* texto */
+    #about1 {
+        text-align: center;
+        font-size: 20px;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    #cont-sobre {
+        width: 340px;
+        height: 600px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    #about-project {
+        text-align: center;
+
+    }
+
+    #texta1 {
+        padding: 0;
+        text-align: center;
+        font-size: 15px;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+
+
+}
+
+@media (max-width: 1280px) AND (min-width: 768px) {
+
+    header {
+        width: 100%;
+    }
+
+
+    #cont-sobre {
+        width: 700px;
+        margin-left: 70px;
+        height: 650px;
+    }
+}

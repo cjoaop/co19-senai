@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status Covid-19</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="icon" type="image/icon" href="img/Design sem nome (9).png">
+</head>
+
+<body>
+    <!-- menu do site -->
+    <header>
+        <div id="menu">
+            <a href="index.html">
+                <img src="img/STATUS (2).png" id="logo">
+            </a>
+        </div>
+        <div id="div-nav">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="Sobre.html">Sobre</a>
+                <a href="Equipe.html">Equipe</a>
+            </nav>
+        </div>
+    </header>
+    <div id="div-att">
+        <p>Atualizado em 19/04/2023</p>
+    </div>
+
+
+    <div id="grafico-casos"></div>
+
+    <div id="casos-br">
+        <h1>Casos de COVID-19 em todos os estados do Brasil:</h1>
+        <table id="tabela-dados">
+            <thead>
+                <tr>
+                    <th>Sigla</th>
+                    <th>Estado</th>
+                    <th>Casos</th>
+                    <th class="sumir">Mortes</th>
+                    <th class="sumir">Suspeitos</th>
+                    <th class="sumir">Descartados</th>
+                </tr>
+            </thead>
+            <tbody id="linhas"></tbody>
+        </table>
+    </div>
+
+    <h1>Os casos confirmados de COVID-19 em todos os países
+        do mundo:</h1>
+    <div id="casos-mundo-total"></div>
+
+</body>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="jss/script.js"></script>
+
+
+</html>
